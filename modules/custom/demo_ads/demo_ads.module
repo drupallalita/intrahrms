@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains demo_ads.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function demo_ads_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the demo_ads module.
+    case 'help.page.demo_ads':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This module will place demo ads.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
