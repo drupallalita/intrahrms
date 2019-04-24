@@ -1,0 +1,26 @@
+uuid: d326bbde-3a96-4578-b5e8-a1bed10d970e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - corporate_lite
+_core:
+  default_config_hash: A3bcyLasZcyva9oAcpiKesKXT5O0KStJkSrcU3YxFVw
+id: corporate_lite_account_menu
+theme: corporate_lite
+region: header_third
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

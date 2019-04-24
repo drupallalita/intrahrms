@@ -1,0 +1,30 @@
+uuid: 29f141cd-8010-44d1-9a73-7127309ad4c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_online
+  module:
+    - system
+    - views
+  theme:
+    - corporate_lite
+id: views_block__who_s_online_who_s_online_block
+theme: corporate_lite
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:who_s_online-who_s_online_block'
+settings:
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

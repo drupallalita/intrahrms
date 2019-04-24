@@ -1,0 +1,22 @@
+uuid: 70a40845-0a5b-4e5f-83dd-19b2fe3da7b7
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - corporate_lite
+_core:
+  default_config_hash: ZSJtgWrzPGhqIiDZJvPH9Tdjrot8xHG58fC2thOUwoA
+id: corporate_lite_help
+theme: corporate_lite
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

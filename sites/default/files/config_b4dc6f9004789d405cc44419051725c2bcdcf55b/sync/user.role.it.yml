@@ -1,0 +1,10 @@
+uuid: 3e99f00a-9278-4e96-aa61-915a9bbf8f7f
+langcode: en
+status: true
+dependencies: {  }
+id: it
+label: IT
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'

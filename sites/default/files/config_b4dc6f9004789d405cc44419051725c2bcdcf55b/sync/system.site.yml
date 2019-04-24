@@ -1,0 +1,14 @@
+uuid: 724fc3e1-02fc-4fae-8488-e953f5f15485
+name: SEI
+mail: kumarilalitha.a@tadigital.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

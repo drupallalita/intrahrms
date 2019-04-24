@@ -1,0 +1,8 @@
+pbf_roles_gids:
+  anonymous: 1
+  authenticated: 2
+  administrator: 3
+  hr: 4
+  it: 5
+_core:
+  default_config_hash: 1R1X1UvfkWtx6yddoRgpgGqAI3M27YGM96gBrCONV8c

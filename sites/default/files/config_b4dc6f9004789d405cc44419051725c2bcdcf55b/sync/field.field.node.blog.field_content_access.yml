@@ -1,0 +1,44 @@
+uuid: 27d72276-b71a-4351-a24f-92f39393a152
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_access
+    - node.type.blog
+    - user.role.anonymous
+    - user.role.authenticated
+  module:
+    - pbf
+id: node.blog.field_content_access
+field_name: field_content_access
+entity_type: node
+bundle: blog
+label: 'Content Access'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    grant_public: 1
+    grant_view: 0
+    grant_update: 0
+    grant_delete: 0
+    target_uuid: 76eae21a-9153-4083-bea3-e586a5abe087
+  -
+    grant_public: 1
+    grant_view: 0
+    grant_update: 0
+    grant_delete: 0
+    target_uuid: 3862c9eb-c26d-4a75-9c20-c3075affa0d5
+default_value_callback: ''
+settings:
+  handler: 'default:user_role'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  synchronized_by: ''
+  priority: 0
+  user_method: user
+  synchronized_with: ''
+  synchronized_from_target: 0
+field_type: pbf

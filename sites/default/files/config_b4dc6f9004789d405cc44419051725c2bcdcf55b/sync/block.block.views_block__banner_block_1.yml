@@ -1,0 +1,30 @@
+uuid: 67197c60-f7db-4a22-a8b5-c28215a76571
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner
+  module:
+    - system
+    - views
+  theme:
+    - corporate_lite
+id: views_block__banner_block_1
+theme: corporate_lite
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'views_block:banner-block_1'
+settings:
+  id: 'views_block:banner-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

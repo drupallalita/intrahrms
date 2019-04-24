@@ -1,0 +1,30 @@
+uuid: 68f2c7ad-d691-4246-b03f-695a842da745
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.article_cycler
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__article_cycler_block_1
+theme: bartik
+region: featured_bottom_second
+weight: -9
+provider: null
+plugin: 'views_block:article_cycler-block_1'
+settings:
+  id: 'views_block:article_cycler-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

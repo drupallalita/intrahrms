@@ -1,0 +1,26 @@
+uuid: beefe70f-9016-4b74-a3b2-9e6fd0f1a0c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - poll
+    - system
+  theme:
+    - bartik
+id: mostrecentpoll
+theme: bartik
+region: featured_bottom_third
+weight: 0
+provider: null
+plugin: poll_recent_block
+settings:
+  id: poll_recent_block
+  label: 'Most recent poll'
+  provider: poll
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

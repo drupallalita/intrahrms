@@ -1,0 +1,8 @@
+uuid: 9deee3fa-fb5a-45c8-9563-88be922e30a4
+langcode: en
+status: true
+dependencies: {  }
+id: quick-links
+label: 'Quick Links'
+description: 'Administrative Quick link Menus'
+locked: false

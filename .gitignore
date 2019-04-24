@@ -1,5 +1,4 @@
 # Ignore paths that contain user-generated content.
-files
 sites/*/private
 sites/default/settings.php
 vendor

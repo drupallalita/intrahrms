@@ -1,0 +1,44 @@
+uuid: d9538224-f5c0-42e1-8f58-830636b5f6af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content_access
+    - node.type.news
+    - user.role.anonymous
+    - user.role.authenticated
+  module:
+    - pbf
+id: node.news.field_content_access
+field_name: field_content_access
+entity_type: node
+bundle: news
+label: 'Content Access'
+description: ''
+required: true
+translatable: true
+default_value:
+  -
+    grant_public: 1
+    grant_view: 1
+    grant_update: 0
+    grant_delete: 0
+    target_uuid: 76eae21a-9153-4083-bea3-e586a5abe087
+  -
+    grant_public: 1
+    grant_view: 1
+    grant_update: 0
+    grant_delete: 0
+    target_uuid: 3862c9eb-c26d-4a75-9c20-c3075affa0d5
+default_value_callback: ''
+settings:
+  handler: 'default:user_role'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  synchronized_by: ''
+  priority: 0
+  user_method: user
+  synchronized_with: ''
+  synchronized_from_target: 0
+field_type: pbf

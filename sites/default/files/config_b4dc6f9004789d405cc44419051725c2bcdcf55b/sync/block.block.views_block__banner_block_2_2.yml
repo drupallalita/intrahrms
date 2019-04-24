@@ -1,0 +1,30 @@
+uuid: 8e473f11-1735-4dd3-a928-6c37e94d8974
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__banner_block_2_2
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'views_block:banner-block_2'
+settings:
+  id: 'views_block:banner-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

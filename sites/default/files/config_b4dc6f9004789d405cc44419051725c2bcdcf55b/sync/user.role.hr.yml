@@ -1,0 +1,10 @@
+uuid: fc9da55c-bfa2-4872-9f5b-abca105c135f
+langcode: en
+status: true
+dependencies: {  }
+id: hr
+label: HR
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'

@@ -1,0 +1,23 @@
+uuid: 680f1172-2b74-444c-be4f-f1603b0cb0b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_type
+    - node.type.news
+  module:
+    - options
+id: node.news.field_news_type
+field_name: field_news_type
+entity_type: node
+bundle: news
+label: 'News Type'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: department
+default_value_callback: ''
+settings: {  }
+field_type: list_string
